@@ -81,10 +81,6 @@ limitations under the License.
                   <pattern>org.apache.http</pattern>
                   <shadedPattern>org.apache.calcite.avatica.org.apache.http</shadedPattern>
                 </relocation>
-                <relocation>
-                  <pattern>org.apache.commons</pattern>
-                  <shadedPattern>org.apache.calcite.avatica.org.apache.commons</shadedPattern>
-                </relocation>
               </relocations>
               <createDependencyReducedPom>false</createDependencyReducedPom>
               <transformers>

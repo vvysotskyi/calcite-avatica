@@ -142,10 +142,6 @@ limitations under the License.
                   <pattern>org.apache.http</pattern>
                   <shadedPattern>${shaded.pkg}.org.apache.http</shadedPattern>
                 </relocation>
-                <relocation>
-                  <pattern>org.apache.commons</pattern>
-                  <shadedPattern>${shaded.pkg}.org.apache.commons</shadedPattern>
-                </relocation>
               </relocations>
               <shadedArtifactAttached>true</shadedArtifactAttached>
               <transformers>

@@ -117,10 +117,6 @@ a brief `pom.xml` which outlines how this can be done.
                   <pattern>org.apache.http</pattern>
                   <shadedPattern>${myorg.prefix}.org.apache.http</shadedPattern>
                 </relocation>
-                <relocation>
-                  <pattern>org.apache.commons</pattern>
-                  <shadedPattern>${myorg.prefix}.org.apache.commons</shadedPattern>
-                </relocation>
               </relocations>
               <createDependencyReducedPom>false</createDependencyReducedPom>
             </configuration>
